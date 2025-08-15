@@ -10,9 +10,9 @@ local scenemanager = require "main.modules.scenemanager"
 function init(self)
     -- Todas as cenas devem ser adicionadas aqui
     local scenes = {
-        [hash("menu")]    = msg.url("menu_proxy"),
-        [hash("level1")]  = msg.url("level1_proxy"),
-        [hash("credits")] = msg.url("credits_proxy"),
+        [hash("menu")]    = msg.url("#menu_proxy"),
+        [hash("level1")]  = msg.url("#level1_proxy"),
+        [hash("credits")] = msg.url("#credits_proxy"),
     }
 
     -- Aqui todas as cenas serão registradas
